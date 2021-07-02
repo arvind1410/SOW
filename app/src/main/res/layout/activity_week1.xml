@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="center"
+        android:text="Week 1-3: Preparation of Crop field"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:textSize="18dp"
+        android:text="•	Prepare the field to get a fine tilth.
+•	Chisel the soils with hard pan
+•   Spread 12.5 t of FYM or compost or 2.5 t of vermicompost per ha if available, uniformly on the unploughed soilield
+
+FORMATION OF RIDGES AND FURROWS
+
+Form ridges and furrows 10 m long with appropriate spacing depending upon the variety.
+Use ridge plough or bund former to form ridges so as to economise on cost of cultivation." />
+
+
+
+</LinearLayout>

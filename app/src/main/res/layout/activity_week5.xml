@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="center"
+        android:text="Week 23-27 Harvesting Stage"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:textSize="16dp"
+        android:text="    Annual grasses and perennial weeds observed in cotton fields may delay cotton growth and generate crop losses.   " />
+
+    <TextView
+        android:paddingTop="50dp"
+        android:textSize="20dp"
+        android:paddingLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Tip: Today's Temperature 30 C" />
+
+    <TextView
+        android:paddingLeft="55dp"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Estimated Crop Yield 80 Bags"/>
+
+</LinearLayout>

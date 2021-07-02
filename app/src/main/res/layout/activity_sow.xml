@@ -1,0 +1,109 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:text="Your Crop"
+        android:textSize="22dp"
+        android:paddingLeft="24dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/sugar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bacgroundyellow"
+        android:padding="10dp"
+        android:src="@drawable/sugar"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peanut"
+        android:layout_alignStart="@+id/sugar"
+        android:text="Sugarcane" />
+
+    <ImageView
+        android:id="@+id/cotton_btn"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="131dp"
+        android:background="@drawable/bacgroundyellow"
+        android:padding="10dp"
+        android:src="@drawable/cotton"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peanut"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="2dp"
+        android:text="Cotton" />
+
+    <ImageView
+        android:id="@+id/peanut"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/bacgroundyellow"
+        android:padding="10dp"
+        android:src="@drawable/peanut"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peanut"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="0dp"
+        android:text="Groundnut" />
+
+    <ImageView
+        android:id="@+id/pepper"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bacgroundyellow"
+        android:padding="10dp"
+        android:src="@drawable/pepper"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peanut"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="-1dp"
+        android:text="Pepper" />
+
+</RelativeLayout>

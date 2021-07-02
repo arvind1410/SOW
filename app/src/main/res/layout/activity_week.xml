@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeekActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#EFEFEF"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/week1"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="25dp"
+            android:text="Week 1-3 Seeding Stage"
+            android:background="#EFEFEF"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="309dp"
+            android:paddingLeft="0dp"
+            android:src="@drawable/seeding" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Week 1-3 Seeding Stage"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="88dp"
+        android:background="#EFEFEF"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/week2"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="25dp"
+            android:text="Week 3-10 Vegetative Stage"
+            android:background="#EFEFEF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="69dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="309dp"
+            android:src="@drawable/veg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="178dp"
+        android:background="#EFEFEF"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/week3"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="25dp"
+            android:text="Week 10-15 Flowering Stage"
+            android:background="#EFEFEF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="316dp"
+            android:src="@drawable/flowering" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="266dp"
+        android:background="#EFEFEF"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/week4"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="25dp"
+            android:text="Week 16-23 Fruiting Stage"
+            android:background="#EFEFEF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Week 16-23 Fruiting Stage"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="63dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="314dp"
+            android:src="@drawable/furiting" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="354dp"
+        android:background="#EFEFEF"
+        android:clickable="true">
+
+
+        <Button
+            android:id="@+id/week5"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="25dp"
+            android:text="Week 23-27 Harvesting Stage"
+            android:background="#EFEFEF"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="314dp"
+            android:src="@drawable/harvest" />
+    </RelativeLayout>
+
+</RelativeLayout>

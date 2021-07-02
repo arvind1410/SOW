@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#37bd64</color>
+  <color name="colorPrimaryDark">#37bd64</color>
+  <color name="colorAccent">#666666</color>
+
+  <color name="fab_background">#B2000000</color>
+  <color name="fab_sub_item_background">#000000</color>
+  <color name="fab_sub_item_ripple">#89cded</color>
+  <color name="floating_action_menu_bg">#cc000000</color>
+  <color name="floating_action_menu_bg_grey">#cc7D7D7D</color>
+
+  <color name="lightgrey">#ededed</color>
+  <color name="purple">#7c4dff</color>
+  <color name="yellow">#ffb300</color>
+  <color name="green">#00bfa5</color>
+</resources>

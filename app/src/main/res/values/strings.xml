@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SOW</string>
+
+
+    <!--Maize Disease Details-->
+    <string name="symptomes">Symptoms</string>
+    <string name="maize_disease_title">Disease Name</string>
+    <string name="maize_disease_name">Bacterial leaf spot(Pseudomonas spp)</string>
+    <string name="maize_disease_nutrition_deficiency">Nutrition Deficiency</string>
+    <string name="maize_disease_description">Description</string>
+    <string name="maize_disease_description_details">	•	Infected leaf has small dark spots and as the disease develops, plenty of watersoaked leaf spots appear.\n
+	•	The spots remain small and are visible on both sides of the leaf.\n
+	•	When they become older, they have tan color and may or may not have purple borders
+</string>
+    <string name="symptomes_details">Infected leaf has small dark spots and as the disease develops, plenty of watersoaked leaf spots appear. The spots remain small and are visible on both sides of the leaf. When they become older, they have tan color and may or may not have purple borders</string>
+    <string name="maize_disease_control_measures">Control Measures</string>
+    <string name="maize_disease_control_measures_desc">•	Use of disease resistance varieties, i.e. Hybrids Ganga Safed-2, DHM 103, show significantly less disease incidence than other hybrids.\n
+	•	Avoid waterlogging and poor drainage.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_wheat">WheatActivity</string>
+</resources>
